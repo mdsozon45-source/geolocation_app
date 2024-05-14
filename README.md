@@ -8,4 +8,4 @@ python manage.py migrate
 
 template url "http://127.0.0.1:8000/location-data/"
 
-api urls "http://127.0.0.1:8000/api/location/"
+api url "http://127.0.0.1:8000/api/location/"
