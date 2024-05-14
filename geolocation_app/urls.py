@@ -19,7 +19,7 @@ from django.urls import path
 from django.urls import path, include
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('api/', include('geolocation.urls')),
+    path('', include('geolocation.urls')),
 ]
 
 
