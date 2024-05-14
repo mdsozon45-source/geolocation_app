@@ -22,7 +22,7 @@ class LocationAPIView(APIView):
 
 
 class LocationDataView(TemplateView):
-    template_name = 'location_data.html'
+    template_name = 'position.html'
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
