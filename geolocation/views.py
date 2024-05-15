@@ -16,7 +16,7 @@ from geopy.geocoders import OpenCage
 #         latitude = request.data.get('latitude')
 #         longitude = request.data.get('longitude')
 
-#         # Initialize geocoder with API key
+#         
 #         geolocator = Nominatim(user_agent="geoapiExercises")
 #         location = geolocator.reverse(str(latitude) + "," + str(longitude))
         
